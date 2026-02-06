@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/access_navigation"
+    app:startDestination="@+id/navigation_login">
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:label="@string/loginTitle"
+        android:name="com.viniciostorres.gamehub.ui.login.LoginFragment"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/navigation_register" />
+
+        <action
+            android:id="@+id/action_loginFragment_to_recoveryFragment"
+            app:destination="@id/navigation_recovery" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_register"
+        android:label="@string/registerTitle"
+        android:name="com.viniciostorres.gamehub.ui.register.RegisterFragment"
+        tools:layout="@layout/fragment_register">
+
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/navigation_login" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_recovery"
+        android:label="@string/recoveryTitle"
+        android:name="com.viniciostorres.gamehub.ui.recovery.RecoveryFragment"
+        tools:layout="@layout/fragment_recovery">
+
+        <action
+            android:id="@+id/action_recoveryFragment_to_loginFragment"
+            app:destination="@id/navigation_login" />
+
+    </fragment>
+</navigation>

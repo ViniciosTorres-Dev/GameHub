@@ -17,4 +17,10 @@
 
     <color name="input_color">#E6E6E6</color>
     <color name="hint_color">#404040</color>
+
+    <color name="topBar_color">#000000</color>
+    <color name="topBarText_color">#FFFFFF</color>
+
+    <color name="searchBar">#FFFFFF</color>
+
 </resources>

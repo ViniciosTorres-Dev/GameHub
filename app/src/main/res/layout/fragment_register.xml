@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/background_color">
+    android:background="@color/background_color"
+    android:id="@+id/registerFragment">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/signInCard"
@@ -131,6 +132,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
         </Button>
+
+        <TextView
+            android:id="@+id/backFromRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/back"
+            android:textColor="@color/main_color"
+            android:textStyle="italic">
+        </TextView>
 
     </LinearLayout>
     </com.google.android.material.card.MaterialCardView>

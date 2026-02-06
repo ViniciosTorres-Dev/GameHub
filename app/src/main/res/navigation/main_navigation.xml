@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:label="@string/homeTitle">
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_search2"
+            app:destination="@id/navigation_search" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_library2"
+            app:destination="@id/navigation_library" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_account2"
+            app:destination="@id/navigation_account" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:label="@string/searchTitle">
+        <action
+            android:id="@+id/action_navigation_search_to_navigation_home2"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_search_to_navigation_library2"
+            app:destination="@id/navigation_library" />
+        <action
+            android:id="@+id/action_navigation_search_to_navigation_account"
+            app:destination="@id/navigation_account" />
+        <action
+            android:id="@+id/action_navigation_search_to_navigation_gamepage2"
+            app:destination="@id/navigation_gamepage" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_library"
+        android:label="@string/libraryTitle">
+        <action
+            android:id="@+id/action_navigation_library_to_navigation_search2"
+            app:destination="@id/navigation_search" />
+        <action
+            android:id="@+id/action_navigation_library_to_navigation_home2"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_library_to_navigation_account"
+            app:destination="@id/navigation_account" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:label="@string/accountTitle">
+        <action
+            android:id="@+id/action_navigation_account_to_navigation_home2"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_account_to_navigation_search"
+            app:destination="@id/navigation_search" />
+        <action
+            android:id="@+id/action_navigation_account_to_navigation_library"
+            app:destination="@id/navigation_library" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_gamepage"
+        android:label="@string/gamepageTitle">
+        <action
+            android:id="@+id/action_navigation_gamepage_to_navigation_search2"
+            app:destination="@id/navigation_search" />
+    </fragment>
+
+</navigation>
