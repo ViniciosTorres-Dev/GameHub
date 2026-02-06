@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">GameHub</string>
+    <string name="emailEdit">Digite seu E-mail</string>
+    <string name="passwordEdit">Insira sua Senha</string>
+    <string name="signIn">Insira seu E-mail</string>
+    <string name="signInButton">Logar</string>>
+    <string name="signUpText">Se cadastrar</string>
+    <string name="imageLogo">Logo</string>
+    <string name="registerNickname">Digite seu Apelido</string>
+    <string name="registerEmail">Digite um E-mail</string>
+    <string name="registerPassword">Cadastre uma senha</string>
+    <string name="confirmPassword">Confirme sua senha</string>
+    <string name="signUpButton">Cadastrar</string>
+    <string name="recovery">Recuperar senha</string>
+    <string name="loginTitle">LOGIN</string>
+    <string name="registerTitle">Cadastro</string>
+    <string name="recoveryTitle">Recuperar Senha</string>
+    <string name="recoveryButton">Recuperar</string>
+    <string name="codeEdit">Insira o código</string>
+    <string name="newPassword">Insira sua nova senha</string>
+    <string name="confirmNewPassword">Confirme sua nova senha</string>
+    <string name="newPasswordButton">Confirmar</string>
+    <string name="newPasswordTitle">Nova Senha</string>
+    <string name="sendCode">Enviar código</string>
 </resources>
