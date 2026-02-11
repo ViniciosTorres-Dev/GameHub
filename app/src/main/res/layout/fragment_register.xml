@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:text="@string/registerTitle"
             android:textColor="@color/title_color"
-            android:textSize="32sp"
+            android:textSize="28sp"
             android:textStyle="bold">
         </TextView>
 
@@ -45,7 +45,7 @@
             style="@style/GameHubInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="12dp">
+            android:layout_marginVertical="4dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:inputType="textPersonName"
@@ -55,28 +55,30 @@
                 android:textColorHint="@color/main_color"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center">
+                android:gravity="center"
+                android:maxLines="1">
             </com.google.android.material.textfield.TextInputEditText>
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/registerEmail"
+            android:id="@+id/registerLoginMethod"
             android:background="@android:color/transparent"
             style="@style/GameHubInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="12dp">
+            android:layout_marginVertical="4dp">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:inputType="textEmailAddress"
-                android:id="@+id/registerEmailInput"
-                android:hint="@string/registerEmail"
+                android:inputType="number|textEmailAddress"
+                android:id="@+id/LoginMethodEdit"
+                android:hint="@string/registerLoginMethod"
                 android:textStyle="italic"
                 android:textColorHint="@color/main_color"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center">
+                android:gravity="center"
+                android:maxLines="1">
             </com.google.android.material.textfield.TextInputEditText>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -87,7 +89,7 @@
             android:background="@android:color/transparent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="12dp">
+            android:layout_marginVertical="4dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:inputType="textPassword"
@@ -97,7 +99,8 @@
                 android:textColorHint="@color/main_color"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center">
+                android:gravity="center"
+                android:maxLines="1">
             </com.google.android.material.textfield.TextInputEditText>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -108,7 +111,7 @@
             android:background="@android:color/transparent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="12dp">
+            android:layout_marginVertical="4dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:inputType="textPassword"
@@ -118,7 +121,8 @@
                 android:textColorHint="@color/main_color"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center">
+                android:gravity="center"
+                android:maxLines="1">
             </com.google.android.material.textfield.TextInputEditText>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -127,7 +131,7 @@
             android:backgroundTint="@color/main_color"
             android:text="@string/signUpButton"
             android:textColor="@color/main_text_color"
-            android:id="@+id/signInButton"
+            android:id="@+id/signUpButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
@@ -137,12 +141,17 @@
             android:id="@+id/backFromRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="4dp"
             android:gravity="center"
             android:text="@string/back"
             android:textColor="@color/main_color"
             android:textStyle="italic">
         </TextView>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
 
     </LinearLayout>
     </com.google.android.material.card.MaterialCardView>

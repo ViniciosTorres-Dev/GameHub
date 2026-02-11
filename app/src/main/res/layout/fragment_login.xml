@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/background_color"
+    android:background="@drawable/background"
     android:id="@+id/loginFragment">
 
-    <ImageButton
+    <ImageView
         android:id="@+id/logoImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
 
         android:layout_marginTop="30dp"
         android:layout_marginHorizontal="60dp">
-    </ImageButton>
+    </ImageView>
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/signInCard"
@@ -69,7 +69,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="15dp"
-            android:background="@android:color/transparent">
+            android:background="@android:color/transparent"
+            app:boxStrokeWidthFocused="1dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/emailEdit"
@@ -77,6 +78,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:hint="@string/emailEdit"
+                android:autofillHints="emailAddress"
                 android:inputType="textEmailAddress"
                 android:textColorHint="@color/main_color"
                 android:textStyle="italic">
@@ -91,7 +93,8 @@
             android:maxWidth="488dp"
             android:layout_height="wrap_content"
             android:layout_marginVertical="15dp"
-            android:background="@android:color/transparent">
+            android:background="@android:color/transparent"
+            app:boxStrokeWidthFocused="1dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/passwordEdit"
@@ -99,6 +102,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:hint="@string/passwordEdit"
+                android:autofillHints="password"
                 android:inputType="textPassword"
                 android:textColorHint="@color/main_color"
                 android:textStyle="italic">
@@ -116,6 +120,7 @@
         </Button>
 
         <TextView
+            android:id="@+id/signUpRedirect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -126,6 +131,7 @@
         </TextView>
 
         <TextView
+            android:id="@+id/recoveryRedirect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

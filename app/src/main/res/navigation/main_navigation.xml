@@ -4,11 +4,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_navigation"
-    app:startDestination="@id/navigation_home">
+    app:startDestination="@id/homeFragment">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:label="@string/homeTitle">
+        android:id="@+id/homeFragment"
+        android:label="@string/homeTitle"
+        android:name="com.viniciostorres.gamehub.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_navigation_home_to_navigation_search2"
             app:destination="@id/navigation_search" />
@@ -22,10 +24,12 @@
 
     <fragment
         android:id="@+id/navigation_search"
-        android:label="@string/searchTitle">
+        android:label="@string/searchTitle"
+        android:name="com.viniciostorres.gamehub.ui.search.SearchFragment"
+        tools:layout="@layout/fragment_search">
         <action
             android:id="@+id/action_navigation_search_to_navigation_home2"
-            app:destination="@id/navigation_home" />
+            app:destination="@id/homeFragment" />
         <action
             android:id="@+id/action_navigation_search_to_navigation_library2"
             app:destination="@id/navigation_library" />
@@ -39,13 +43,15 @@
 
     <fragment
         android:id="@+id/navigation_library"
-        android:label="@string/libraryTitle">
+        android:label="@string/libraryTitle"
+        android:name="com.viniciostorres.gamehub.ui.library.LibraryFragment"
+        tools:layout="@layout/fragment_library">
         <action
             android:id="@+id/action_navigation_library_to_navigation_search2"
             app:destination="@id/navigation_search" />
         <action
             android:id="@+id/action_navigation_library_to_navigation_home2"
-            app:destination="@id/navigation_home" />
+            app:destination="@id/homeFragment" />
         <action
             android:id="@+id/action_navigation_library_to_navigation_account"
             app:destination="@id/navigation_account" />
@@ -53,10 +59,12 @@
 
     <fragment
         android:id="@+id/navigation_account"
-        android:label="@string/accountTitle">
+        android:label="@string/accountTitle"
+        android:name="com.viniciostorres.gamehub.ui.account.AccountFragment"
+        tools:layout="@layout/fragment_account">
         <action
             android:id="@+id/action_navigation_account_to_navigation_home2"
-            app:destination="@id/navigation_home" />
+            app:destination="@id/homeFragment" />
         <action
             android:id="@+id/action_navigation_account_to_navigation_search"
             app:destination="@id/navigation_search" />
@@ -67,7 +75,9 @@
 
     <fragment
         android:id="@+id/navigation_gamepage"
-        android:label="@string/gamepageTitle">
+        android:label="@string/gamepageTitle"
+        android:name="com.viniciostorres.gamehub.ui.gamepage.GamepageFragment"
+        tools:layout="@layout/fragment_gamepage">
         <action
             android:id="@+id/action_navigation_gamepage_to_navigation_search2"
             app:destination="@id/navigation_search" />

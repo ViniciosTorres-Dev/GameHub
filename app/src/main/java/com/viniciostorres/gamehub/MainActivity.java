@@ -1,6 +1,9 @@
 package com.viniciostorres.gamehub;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 }
+
+
+
