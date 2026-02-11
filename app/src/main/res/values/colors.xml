@@ -4,7 +4,9 @@
     <color name="secondary_color">#C0FF4B00</color>
     <color name="tertiary_color">#80FF4B00</color>
 
-    <color name="background_color">#FFFFFF</color>
+    <color name="background_color">#F0F0F0</color>
+    <color name="almost_background">#FEFEFE</color>
+    <color name="all_color">#FFFFFF</color>
     <color name="navigation_color">#FF4B00</color>
 
     <color name="card_color">#FFFFFF</color>

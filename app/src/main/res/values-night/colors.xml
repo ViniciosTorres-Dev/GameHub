@@ -4,14 +4,25 @@
     <color name="secondary_color">#C0FF4B00</color>
     <color name="tertiary_color">#80FF4B00</color>
 
-    <color name="background_color">#2EFF00</color>
-    <color name="navigation_color">#F5F5F5</color>
+    <color name="background_color">#131313</color>
+    <color name="almost_background">#121212</color>
+    <color name="all_color">#010101</color>
+    <color name="navigation_color">#FF4B00</color>
 
-    <color name="card_color">#0056FF</color>
-    <color name="card_border_color">#FF0000</color>
+    <color name="card_color">#141414</color>
+    <color name="card_border_color">@android:color/transparent</color>
 
-    <color name="title_color">#010101</color>
+    <color name="title_color">#FFFFFF</color>
     <color name="subtitle_color">#030303</color>
-    <color name="main_text_color">#070707</color>
+    <color name="main_text_color">#FFFFFF</color>
     <color name="secondary_text_color">#0F0F0F</color>
+
+    <color name="input_color">#E6E6E6</color>
+    <color name="hint_color">#404040</color>
+
+    <color name="topBar_color">#000000</color>
+    <color name="topBarText_color">#FFFFFF</color>
+
+    <color name="searchBar">#FFFFFF</color>
+
 </resources>

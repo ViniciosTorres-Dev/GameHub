@@ -1,19 +1,22 @@
 <resources>
     <string name="app_name">GameHub</string>
+
+    <string name="loginTitle">LOGIN</string>
     <string name="emailEdit">Digite seu E-mail</string>
     <string name="passwordEdit">Insira sua Senha</string>
-    <string name="signIn">Insira seu E-mail</string>
     <string name="signInButton">Logar</string>>
     <string name="signUpText">Se cadastrar</string>
     <string name="imageLogo">Logo</string>
+    <string name="recovery">Recuperar senha</string>
+
+    <string name="registerTitle">Cadastro</string>
     <string name="registerNickname">Escolha um nome</string>
-    <string name="registerEmail">Digite um E-mail</string>
+    <string name="registerLoginMethod">Cadastre seu E-mail ou Telefone</string>
+    <string name="registerNumber">Digite seu número de telefone</string>
     <string name="registerPassword">Cadastre uma senha</string>
     <string name="confirmPassword">Confirme sua senha</string>
     <string name="signUpButton">Cadastrar</string>
-    <string name="recovery">Recuperar senha</string>
-    <string name="loginTitle">LOGIN</string>
-    <string name="registerTitle">Cadastro</string>
+
     <string name="recoveryTitle">Recuperar Senha</string>
     <string name="recoveryButton">Recuperar</string>
     <string name="codeEdit">Insira o código</string>
@@ -22,12 +25,19 @@
     <string name="newPasswordButton">Confirmar</string>
     <string name="newPasswordTitle">Nova Senha</string>
     <string name="sendCode">Enviar código</string>
+
     <string name="homeTitle">Home</string>
+    <string name="suggestion">Sugestões para você, Usuário</string>
+
     <string name="searchTitle">Pesquisa</string>
-    <string name="libraryTitle">Biblioteca</string>
-    <string name="accountTitle">Conta</string>
-    <string name="gamepageTitle">Página do Jogo"</string>
     <string name="searchBar">Pesquisar...</string>
+
+    <string name="libraryTitle">Biblioteca</string>
+
+    <string name="accountTitle">Você</string>
+
+    <string name="gamepageTitle">Página do Jogo"</string>
+
     <string name="back">Voltar</string>
 
 </resources>
