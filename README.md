@@ -1,28 +1,28 @@
 # 🎮 GameHub
 
-Um aplicativo Android que funciona como rede social onde os usuários podem interagir nas páginas dos jogos, deixando comentários ou avaliação e também como biblioteca pessoal para que o player se lembre dos seus jogos concluídos, em andamento
-e os desejáveis, inicialmente desenvolvido como projeto acadêmico de Engenharia de Software, mas que se tornou um projeto pessoal.
+An Android application that functions as a social network where users can interact on game pages, leaving comments or ratings, and also as a personal library for players to keep track of their completed games, games in progress,
+and games they want to play. It was initially developed as an academic software engineering project, but became a personal project.
 
-## 🛠 Tecnologias Utilizadas
-* **Linguagem:** Java 21
-* **Plataforma:** Android (Min SDK 30)
-* **Banco de Dados:** Firebase Realtime Database / Firestore
-* **Arquitetura:** MVC
-* **Ferramentas:** Android Studio, Git
+## 🛠 Technologies Used
+* **Language:** Java 21
+* **Platform:** Android (Min SDK 30)
+* **Database:** Firebase Realtime Database / Firestore
+* **Architecture:** MVC
+* **Tools:** Android Studio, Git
 
-## ⚙️ Funcionalidades
-- [x] Login e Autenticação de Usuários
-- [x] Navegação entre telas (Home, Detalhes, Perfil)
-- [ ] Integração com API de Jogos (Em desenvolvimento)
+## ⚙️ Features
+- [x] User Login and Authentication
+- [x] Navigation between screens (Home, Details, Profile)
+- [ ] Integration with Games API (Under development)
 
-## 🚀 Como rodar o projeto
-1. Clone este repositório
-2. Abra no Android Studio
-3. Adicione seu próprio `google-services.json` na pasta `app/`
-4. Dê Build & Run
+## 🚀 How to run the project
+1. Clone this repository
+2. Open it in Android Studio
+3. Add your own `google-services.json` to the `app/` folder
+4. Build & Run
 
-## 🔒 Segurança
-Este projeto segue boas práticas de não expor chaves de API públicas no versionamento.
+## 🔒 Security
+This project follows best practices of not exposing public API keys in versioning.
 
 ---
-Desenvolvido por [Vinícios Torres] - Estudante de Eng. Software e Cibersegurança
+Developed by [Vinícios Torres] - Software Engineering and Cybersecurity Student
